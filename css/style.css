@@ -1,0 +1,47 @@
+body {
+	margin:0px auto;
+	height: auto;
+	background: #fff;
+}
+* {
+  box-sizing: border-box;
+}
+#Top {
+	width: 100%;
+	height: auto;
+    margin: 0px auto;
+}
+#Logo {
+	widows: auto;
+	height: auto;
+	float: left;
+	margin: 1% 0 0 2%;
+	padding: 0px;
+}
+#Logo img {
+	margin: 0 0 0 0;
+}
+#Contact-Details {
+	float: right;
+	width: 40%;
+	height: 162px;
+}
+
+@media screen (min-width: 768px) and (max-width: 1024px) {
+
+#Logo {
+		width: 50% !important;
+		height: auto;
+		float: none;
+		margin: 0px auto;
+}
+
+#Logo img {
+	width: 100%;
+	height: auto;
+	margin: 0 0 0 0;
+	float: none;
+}
+
+
+}
